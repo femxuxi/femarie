@@ -75,8 +75,7 @@ a{
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding: 7px;
   background-color: #884A39;
   font-size: 20px;
 }
@@ -94,27 +93,34 @@ a{
 
 .main_nav{
   display: flex;
-  width: 40%;
+  width: 45%;
   float: right;
-  padding: 10px 0;  
-  margin-right: 3%;
-  justify-content: space-between;
+  padding: 5px 0;
+  margin-right: 3px;
 }
 
 .main_nav li:hover {
-  padding-inline: 3px;
-  padding-block: 3px;
   background-color: rgb(227, 184, 90);
 }
 
 .main_nav li{
-  display: inline-flex;
+  display: flex;
+  margin: 13px;
+  border-radius: 5px;
   color: #ffffff;
 }
 
 .main_nav li a{
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
   color: #ffffff;
 }
+
+.main_nav li a i {
+  color: bisque;
+}
+
 .navbar_toggle {
   display: none;
 }

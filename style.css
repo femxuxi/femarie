@@ -97,21 +97,21 @@ a{
   width: 40%;
   float: right;
   padding: 10px 0;  
-  margin-right: 2%;
+  margin-right: 3%;
   justify-content: space-between;
-  list-style: none;
 }
 
 .main_nav li:hover {
-  padding-inline: 8px;
+  padding-inline: 3px;
+  padding-block: 3px;
   background-color: rgb(227, 184, 90);
-  transition: background-color 0.3s ease;
 }
 
 .main_nav li{
   display: inline-flex;
   color: #ffffff;
 }
+
 .main_nav li a{
   color: #ffffff;
 }

@@ -118,6 +118,10 @@ a{
   .navbar_toggle {
     display: none;
     }
+  .navbar_toggle h6:hover{
+      padding-inline: 8px;
+      background-color: rgb(227, 184, 90)
+    }
 
     *{
       box-sizing: border-box;
